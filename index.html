@@ -17,9 +17,9 @@ header{padding-top:14px;padding-bottom:10px}.hero{padding:17px 20px;margin-botto
 /* Official logo retains its full artwork and white background. */ .brand-logo{display:block;width:56px;height:47px;object-fit:contain;background:#fff;border-radius:5px}.crest{width:58px;height:50px;padding:3px;background:#fff;border:0;border-radius:8px}.hero-logo{display:block;width:100%;height:100%;object-fit:contain}.hero{grid-template-columns:58px 1fr}@media(max-width:620px){.brand-logo{width:48px;height:40px}.crest{width:50px;height:44px}.hero{grid-template-columns:50px 1fr}} </style></head>
 <body>
 <svg style="display:none" xmlns="http://www.w3.org/2000/svg"><symbol id="building" viewBox="0 0 32 32"><path d="M5 28V12l10-5v21m0-25 12 5v20M2 28h28M9 15v2m0 4v2m10-13v2m4-1v2m-4 3v2m4-1v2m-4 3v2m4-1v2"/></symbol></svg>
-<header><div class="brand"><img class="brand-logo" src="assets/banjaria-court-logo.png" alt="Logo Badan Pengurusan Bersama Banjaria Court" width="584" height="490">BANJARIA COURT</div><span class="header-note">Ruang komuniti kita</span></header>
+<header><div class="brand"><img class="brand-logo" src="assets/banjaria-court-logo.png?v=2" alt="Logo Badan Pengurusan Bersama Banjaria Court" width="584" height="490">BANJARIA COURT</div><span class="header-note">Ruang komuniti kita</span></header>
 <main>
-<section class="hero"><div class="crest"><img class="hero-logo" src="assets/banjaria-court-logo.png" alt="" width="584" height="490"></div><div class="eyebrow">Pusat pautan penduduk</div><h1>Urusan mudah, hidup selesa.</h1><p>Badan Pengurusan Bersama Banjaria Court</p><div class="welcome"><i></i> Lebih dekat. Lebih mudah. Bersama.</div></section>
+<section class="hero"><div class="crest"><img class="hero-logo" src="assets/banjaria-court-logo.png?v=2" alt="" width="584" height="490"></div><div class="eyebrow">Pusat pautan penduduk</div><h1>Urusan mudah, hidup selesa.</h1><p>Badan Pengurusan Bersama Banjaria Court</p><div class="welcome"><i></i> Lebih dekat. Lebih mudah. Bersama.</div></section>
 <section aria-label="Pautan penduduk"><div class="intro"><h2>Apa yang anda perlukan?</h2><span>14 pautan untuk penduduk</span></div><label for="search" class="eyebrow" style="display:block;margin-bottom:8px;font-size:9px;color:#66765d">Cari urusan anda</label><div class="search-wrap"><input id="search" aria-label="Cari urusan anda" class="search" type="search" placeholder="Cari aduan, pelawat, parkir…" autocomplete="off"><button id="clear-search" class="search-reset" type="button" aria-label="Kosongkan carian" hidden>×</button></div><div id="links"></div><p id="results" role="status" class="empty" hidden></p><noscript><p>Aktifkan JavaScript untuk melihat senarai pautan atau <a href="https://linktr.ee/jmbbc">buka Linktree Banjaria Court</a>.</p></noscript><div class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></svg><span>Pautan urusan dibuka di laman penyedia masing-masing. Sumber: <a class="source-link" href="https://linktr.ee/jmbbc" target="_blank" rel="noopener noreferrer">Linktree Banjaria Court</a>.</span></div><footer><div class="leaf">❧</div><strong>Badan Pengurusan Bersama Banjaria Court</strong>Komuniti yang baik bermula dengan kita.</footer></section>
 </main>
 <script>
@@ -50,6 +50,7 @@ const status=document.getElementById('results');status.hidden=!search;status.tex
 const searchInput=document.getElementById('search');const clearSearch=document.getElementById('clear-search');searchInput.addEventListener('input',event=>{render(event.target.value);clearSearch.hidden=!event.target.value;});clearSearch.addEventListener('click',()=>{searchInput.value='';render();clearSearch.hidden=true;searchInput.focus();});render();
 </script>
 </body></html>
+
 
 
 
