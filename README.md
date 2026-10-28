@@ -17,3 +17,8 @@ GitHub Pages belum diaktifkan. Tiada nombor akaun bayaran, kata laluan atau cred
 
 ## Reka bentuk
 Rujuk `DESIGN.md` untuk warna dan kepadatan yang dipilih pemilik.
+
+## Mengurus pautan
+Google Sheet: https://docs.google.com/spreadsheets/d/1zXi-0Gv97QcIeogjqG_3mU74oOi9t_4liyR-riSn2Sk/edit
+
+Dalam tab Pautan, tandakan Aktif untuk memaparkan pautan, buang tanda untuk menyembunyikan, dan ubah Urutan untuk susunan. Tambah baris untuk pautan baharu. Perubahan dibaca semasa laman dibuka dan disemak semula setiap 60 saat ketika laman aktif. Sheet boleh dibaca sesiapa yang mempunyai pautan tetapi hanya editor dibenarkan mengubah. Jangan simpan maklumat sulit, termasuk pautan yang dinyahaktifkan, dalam Sheet ini.
